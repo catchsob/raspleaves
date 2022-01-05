@@ -29,4 +29,4 @@ if __name__ == '__main__':
     output_data = interpreter.get_tensor(output_details[0]['index'])    
     results = np.squeeze(output_data)
     ans = results.argsort()[-5:][::-1][0]
-    print(['AE', 'FF', 'PF', 'PP'][ans])
+    print(['青楓', '水同木', '大葉山欖', '盾柱木'][ans])
